@@ -1,4 +1,3 @@
-
 (function Calculator() {
     let one = document.querySelector('#one');
     let two = document.querySelector('#two');
@@ -106,8 +105,7 @@
             result = eval(display);
             display = result;
             calc.innerText = eval(display)
-        }
-        catch (err) {
+        } catch (err) {
             calc.innerText = 'Error';
         }
 
@@ -115,7 +113,7 @@
 
 
     Clear.addEventListener('click', () => {
-        display = '';
+        display = '0';
         calc.innerText = display;
 
     });
