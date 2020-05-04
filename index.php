@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
 
     <div class="Calculator">
         <div class="display">
@@ -43,7 +43,7 @@
                     <td rowspan="2" id="result">=</td>
                 </tr>
                 <tr>
-                    <td id="zero"; colspan="2">0</td>
+                    <td id="zero" ; colspan="2">0</td>
                     <td id="dot">.</td>
 
                 </tr>
