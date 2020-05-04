@@ -113,7 +113,7 @@
 
 
     Clear.addEventListener('click', () => {
-        display = '0';
+        display = '';
         calc.innerText = display;
 
     });
