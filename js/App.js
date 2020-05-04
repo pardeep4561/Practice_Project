@@ -1,3 +1,5 @@
+
+(function Calculator (){
 let one = document.querySelector('#one');
 let two = document.querySelector('#two');
 let three = document.querySelector('#three');
@@ -118,51 +120,13 @@ Clear.addEventListener('click',()=> {
 
 });
 
-console.log(Result,display);
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
+//footer date 
+let year = document.getElementById('year');
+let date = new Date();
+
+year.innerText = date.getFullYear();
 
 
 
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
 
-
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
-
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
-
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
-
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
-
-
-// three.addEventListener('click',()=>{
-//     display += '3';
-//     calc.innerText = display;
-// })
+})();
