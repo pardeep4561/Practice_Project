@@ -14,7 +14,7 @@
 
     <div class="Calculator">
         <div class="display">
-            <p id="calc">Result</p>
+            <p id="calc">Calculator</p>
         </div>
         <div class="buttons">
             <table>
